@@ -1,0 +1,13 @@
+{       
+   "apps":            
+      [{
+        "name": "third party",
+        "script": "manage.py",
+        "args": ["runserver", "127.0.0.1:9020"], 
+        "exec_mode": "fork", 
+        "instances": "1", 
+        "wait_ready": true, 
+        "autorestart": true,  
+        "interpreter" : "python3" 
+      }] 
+}    
